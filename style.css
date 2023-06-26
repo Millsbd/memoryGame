@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(61, 59, 59);
+  color: lightgray;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#game {
+  margin: 48px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(5, 140px);
+  gap: 16px;
+
+
+
+}
+
+.tile {
+  height: 200px;
+  background-color: black;
+  border: 5px solid lightgray;
+  cursor: pointer;
+
+}
